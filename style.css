@@ -49,6 +49,12 @@ body{
   flex-grow: 1;
 }
 
+#add-btn {
+  margin-left: 10px;
+  order: 1;
+  cursor: pointer; /* Add this line to enable tapping on smartphones */
+}
+
 .task-input #add-btn {
   margin-left: 10px;
   order: 1;
