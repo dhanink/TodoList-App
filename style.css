@@ -49,7 +49,7 @@ body{
   flex-grow: 1;
 }
 
-.task-input .add-btn {
+.task-input #add-btn {
   margin-left: 10px;
   order: 1;
 }
