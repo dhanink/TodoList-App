@@ -28,11 +28,15 @@ body{
   height: 52px;
   padding: 0 25px;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 .task-input img{
   top: 50%;
   position: absolute;
   transform: translate(17px, -50%);
+  order: -1;
+  margin-left: 10px;
 }
 .task-input input{
   height: 100%;
@@ -42,7 +46,14 @@ body{
   border-radius: 5px;
   padding: 0 20px 0 53px;
   border: 1px solid #999;
+  flex-grow: 1;
 }
+
+.task-input #add-btn {
+  margin-left: 10px;
+  order: 1;
+}
+
 .task-input input:focus,
 .task-input input.active{
   padding-left: 52px;
